@@ -1,0 +1,72 @@
+body {
+    background-color: white;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    width: 100% !important;
+    align-items: center;
+    background-color: #10004F;
+    
+}
+
+.cabeçalho{
+    display: flex;
+    width: 100%;
+    margin-right: 2rem;
+    flex-direction: rows;
+    height: 100px; 
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;  
+}
+
+#logo{
+   margin-left: 2rem;
+   height: 100px;
+   cursor: pointer;
+}
+
+#login{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    background-color: #10004F;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#login:hover{
+    transform: scale(1.09);
+}
+
+.opções{
+    display: flex;
+    width: 45px;
+    margin-right: 2rem;
+    
+}
+
+.sidebar{
+    height: 45px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.sidebar:hover{
+    transform: scale(1.09);
+}
+
+#opçõesbotao{
+   background-color: #10004F;
+   border: none
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    color:white
+}
