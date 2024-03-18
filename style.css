@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
 body {
     background-color: white;
 }
@@ -7,7 +13,6 @@ header{
     position: fixed;
     width: 100% !important;
     background-color: #10004F;
-    
 }
 
 .cabeçalho{
@@ -65,4 +70,36 @@ header{
     display: flex;
     gap: 10px;
     color:white
+}
+
+
+
+.barra{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 55px;
+    max-height: 110px;
+    margin-top: 85px;
+    border-top: #ED1650 solid;
+    background-color: #10004F;
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 80px;
+
+}
+
+#lista{
+    text-decoration: none;
+    margin-right: 80px;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+#lista:hover{
+    transform: scale(1.09);
 }
