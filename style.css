@@ -82,7 +82,7 @@ header{
     margin-top: 85px;
     border-top: #ED1650 solid;
     background-color: #10004F;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Fira Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -93,13 +93,9 @@ header{
 
 }
 
-#lista{
+.lista{
     text-decoration: none;
     margin-right: 80px;
     color: white;
     transition: all 0.5s ease;
-}
-
-#lista:hover{
-    transform: scale(1.09);
 }
